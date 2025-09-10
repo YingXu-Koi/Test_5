@@ -329,7 +329,7 @@ def semantic_match(user_input, question_key, reward_details):
 
 def chat_message(name):
     if name == "assistant":
-        return st.container(key=f"{name}-{uuid.uuid4()}").chat_message(name=name, avatar="zino.png", width="content")
+        return st.container(key=f"{name}-{uuid.uuid4()}").chat_message(name=name, avatar="pigeon.png", width="content")
     else:
         return st.container(key=f"{name}-{uuid.uuid4()}").chat_message(name=name, avatar=":material/face:", width="content")
 # UI
